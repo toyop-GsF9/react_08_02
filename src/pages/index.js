@@ -6,7 +6,7 @@ import styles from '../styles/test.module.scss';
 
 const Home = () => {
   const settings = {
-    // Slickの設定をここに記述
+
     dots: true,
     infinite: true,
     speed: 500,
@@ -28,7 +28,7 @@ const Home = () => {
         <div>
           <h3>Slide 3</h3>
         </div>
-        {/* 他のスライドをここに追加 */}
+
       </Slider>
     </div>
   );
