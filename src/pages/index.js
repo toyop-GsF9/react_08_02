@@ -1,36 +1,36 @@
-import React from 'react';
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
-import styles from '../styles/test.module.scss';
+import React from "react";
+import style from "../styles/test.module.scss";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
-const home = () => {
+const news = () => {
   const settings = {
-
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 1
+    slidesToShow: 1,
+    slidesToScroll: 1,
   };
-
   return (
-
-
     <Slider {...settings}>
       <div>
-        <h3>Slide 1</h3>
+        <h1 style={style}>1</h1>
       </div>
       <div>
-        <h3>Slide 2</h3>
+        <h1 style={style}>2</h1>
       </div>
       <div>
-        <h3>Slide 3</h3>
+        <h1 style={style}>3</h1>
       </div>
-
+      <div>
+        <h1 style={style}>4</h1>
+      </div>
+      <div>
+        <h1 style={style}>5</h1>
+      </div>
     </Slider>
-
   );
 };
 
-export default home;
+export default news;
