@@ -17,7 +17,7 @@ const Home = () => {
   return (
     <div>
       <h1 className={`${styles.text5xl} ${styles.underline}`}>TOP画面</h1>
-      <h2>React Slick Example</h2>
+      <h2></h2>
       <Slider {...settings}>
         <div>
           <h3>Slide 1</h3>
