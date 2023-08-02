@@ -8,9 +8,11 @@ const news = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 1000,
     slidesToShow: 1,
     slidesToScroll: 1,
+    autoplay: true, // Add this line
+    autoplaySpeed: 1500, // And this line to set the autoplay speed to 2 seconds
   };
   return (
     <Slider {...settings}>
